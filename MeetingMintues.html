@@ -2,50 +2,116 @@
 <html lang="en">
   <head>
     <title> Meeting Minutes </title>
+    <meta name="description" content="First meeting">
+    <meta name="author" content="Pratham Mittal">
+    <link rel="icon" type="image/x-icon" href="team-meeting-v2.jpeg">
+    <style>
+      .myDiv {
+        border: 5px outset rgb(81, 0, 255);
+        background-color: rgb(255, 0, 0);    
+        text-align: center;
+      }
+      </style>
   </head>
   <body>
-    <h1>Meeting Minutes</h1>
+    <header>
+      <h1>Meeting Minutes</h1>
+    </header>
     <h2> Brainstorming </h2>
     <h3> Date: Oct 7 2022 </h3>
 
-    <div class="Attendance List">
+    <div class="myDiv">
         <h4>Attendance List:</h4>
       
-        <ul>
+        <ol>
            <li>David</li>
            <li>Pratham</li>
            <li>Angel</li>
            <li>Charles</li>
-        </ul>
+        </ol>
       </div>
     
-    <div class="Agenda">
         <h4>Agenda</h4>
       
         <ul>
-           <li>Setting up meeting time</li>
+          
+           <li>
+            Setting up 
+            <span style="color:rgb(255, 0, 0);font-weight:bold">
+              meeting time
+            </span>
+          </li>
            <li>Introduction</li>
+           <strong>
            <li>Getting familiar with the TA</li>
+           </strong>
            <li>Division of the team into frontend and backend</li>
            <li>Sub-team leaders</li>
         </ul>
-      </div>
+
+      <details>
+        <summary><b>Front End </b></summary>
+        <p>Creating HTML, CSS, and JavaScript for a website or online application such that a user can view 
+          and interact <br> with them directly is known as Front End Development </p>
+      </details>
+      <hr>
+      <details>
+        <summary>Back End </summary>
+        <p> Working on server-side software, is what back-end development involves. By concentrating on databases, <br>
+          back-end logic, application programming interfaces (APIs), architecture, and servers, back-end developers <br>
+          make sure the website functions properly.</p>
+      </details>
+
 
     <h4>Frontend vs Backend tools</h4>
 
     <img src="https://www.netguru.com/hs-fs/hubfs/Front%20vs%20back%20end%202.jpg?width=700&name=Front%20vs%20back%20end%202.jpg" width="300" height="300">
 
-    <h4>Audio recording</h4>
+    <p> For further guidance contact the staff on <a href="https://www.https://cse110fall2022.slack.com/">Slack</a></p>
+
+    <h4><em>Audio recording</em></h4>
     <audio controls>
         <source src = "30-seconds-of-silence.mp3">
 
     </audio>
 
-    <h4>Video recording</h4>
-    <video controls>
-        <source src= "video1865394349.mp4" type="video/mp4">
-    </video>
+    <section>
+      <h4><i>Video recording</i></h4>
+      <video controls>
+          <source src= "video1865394349.mp4" type="video/mp4">
+      </video>
+    </section>
+  
+    <p>
+      <form action="/action_page.php">
+        <fieldset>
+          <legend>Your details</legend>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname">
+          <p>Please select your age:</p>
+          <input type="radio" id="age1" name="age" value="40">
+          <label for="age1">0 - 40</label><br>
+          <input type="radio" id="age2" name="age" value="60">
+          <label for="age2">41 - 60</label><br>  
+          <input type="radio" id="age3" name="age" value="100">
+          <label for="age3">61 - 100</label><br><br>
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday"><br><br>
+          <p>Sunset or Sunrise</p>
+          <input type="checkbox" id="sunset" name="sunset" value="sunset">
+          <label for="sunset"> Sunset</label><br>
+          <input type="checkbox" id="Sunrise" name="Sunrise" value="Sunrise">
+          <label for="Sunrise"> Sunrise</label><br><br>
+          <p> Please enter your comments </p>
+          <textarea name="review" id="" cols="30" rows="10">Please enter here</textarea><br><br>
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+    </p>
     
-
+    <footer>
+      <p>Author: Pratham</p>
+      <p><a href="mailto:example@example.com">example@example.com</a></p>
+    </footer>
   </body>
 </html>
